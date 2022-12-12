@@ -10,16 +10,26 @@
 .botao {
     display: inline-block;
     padding: 16px 32px;
-    background: linear-gradient(#ffbf00 , #f2a50c);
+    background: linear-gradient(#ffbf00, #f2a50c);
     border-radius: 4px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     color: var(--cor-p5);
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
+    max-width: max-content;
 }
 
-.botao:hover{
-    background: linear-gradient(#ffb60d , #e59317);
+.botao:hover {
+    background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover {
+    background: var(--cor-9);
 }
 
 @media (max-width: 600px) {
@@ -30,9 +40,10 @@
 }
 
 @media (max-width: 1200px) {
-    .botao  {
+    .botao {
         font-size: 3rem;
     }
+
     .botao {
         font-size: 1.125rem;
     }
@@ -45,7 +56,7 @@
     text-transform: uppercase;
 }
 
-.link::after{
+.link::after {
     content: "";
     display: block;
     width: 100%;
@@ -59,9 +70,32 @@
     transition: 0.5s;
 }
 
-.link:hover::after{
+.link:hover::after {
     display: block;
     width: 0%;
     height: 4px;
     transition: 0.2s;
+}
+
+/* titulo internas */
+.titulo-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-11);
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
 }
