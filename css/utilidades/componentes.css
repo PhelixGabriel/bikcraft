@@ -62,10 +62,6 @@
 
 @media (max-width: 1200px) {
     .botao {
-        font-size: 3rem;
-    }
-
-    .botao {
         font-size: 1.125rem;
     }
 }
@@ -103,6 +99,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--cor-11);
+}
+
+.titulo {
+    background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
 }
 
 .titulo p {
