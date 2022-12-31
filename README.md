@@ -2,7 +2,7 @@
 
 Bikcraft is an online electric bicycles store. This project was made following the teacher's instructions during the HTML & CSS for beginners course at Origamid.
 
-
+![bikcraft](https://user-images.githubusercontent.com/48923746/210157451-a4feb5a0-a221-4b03-b316-a44b718bae53.png)
 
 ## The most expressive lessons that I've learned:
 
