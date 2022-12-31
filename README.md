@@ -2,7 +2,7 @@
 
 Bikcraft is an online electric bicycles store. This project was made following the teacher's instructions during the HTML & CSS for beginners course at Origamid.
 
-[![Product Name Screen Shot][product-screenshot]](https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg)
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ## The most expressive lessons that I've learned:
 
