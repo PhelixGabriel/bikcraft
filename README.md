@@ -16,7 +16,7 @@ Bikcraft is an online electric bicycles store. This project was made following t
 
 ## Technologies
 
-On this project the following technologies were used:
+The following programming languages were used on this project:
 
  <div>
 
